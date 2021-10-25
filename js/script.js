@@ -13,5 +13,8 @@ for (var i = 1; i < 101; i++) {
     else if (i % 5 == 0)  squareCont.innerHTML += `<div class=buzz>
     ${i}
     </div>`;
+    else squareCont.innerHTML += `<div class=square>
+    ${i}
+    </div>`;
 
 }
